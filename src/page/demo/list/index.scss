@@ -1,0 +1,27 @@
+@import "$yo-config/core/reset";
+@import "$yo-config/layout/yo-root";
+@import "$yo-config/layout/yo-flex";
+@import "$yo-config/fragment/yo-list";
+
+.m-list {
+    background-color: #eeeeee;
+}
+
+.f-left{
+	float:left;
+	margin-right:20px;
+	img{
+		width:90px;
+		height:90px;
+	}
+}
+
+.f-right{
+	float:right;
+	width:160px;
+	height:100px;
+}
+
+*{
+	-webkit-user-select: none;
+}

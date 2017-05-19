@@ -1,0 +1,36 @@
+@import "$yo-config/core/reset";
+@import "$yo-config/layout/yo-root";
+@import "$yo-config/layout/yo-flex";
+@import "$yo-config/element/yo-btn";
+
+@include yo-btn(
+    $name: light,
+    $border-width: 1px,
+    $border-color: #666,
+    $bgcolor: #fff,
+    $color: #333
+){
+    margin: .1rem;
+};
+
+.lst{
+    padding:0 0.15rem;
+    border-box:box-sizing;
+}
+
+.extra{
+    text-align:center;
+	img{
+		width:100%;
+		height:100px;
+		margin:0 auto;
+        margin:0.213333rem 0;
+	}
+}
+
+.yo-card{
+    h1{
+        text-align:center;
+        font-size:0.213333rem;
+    }
+}
